@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.toolbar {
+    margin-bottom: 10px;
+}
+
+canvas {
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+button{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#pencil{
+    font-size: 20px;
+}
